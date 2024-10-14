@@ -24,6 +24,33 @@
 
 (+) To get the ARN of a policy: `aws iam list-policies --query "Policies[?PolicyName=='<policy_name>'].Arn"`
 
+(+) To create access key for a user: `aws iam create-access-key --user-name <username>`
+
+(+) To assume a role: 
+
+```
+    aws sts assume-role --role-arn <role-arn> \
+    --role-session-name <mysession> \
+    --duration-seconds <time-in-seconds-900>
+```
+
+``` Example
+aws sts assume-role --role-arn arn:aws:iam::992382768732:role/s3-assume-role \
+--role-session-name FullS3Admin \
+--duration-seconds 900
+
+```
+==> After assuming the role we will have an `access key`, a `secret key`, and a `session token`. We need to use those information as a credentials for the role.
+
+```
+export AWS_ACCESS_KEY_ID=your-temporary-access-key-id
+export AWS_SECRET_ACCESS_KEY=your-temporary-secret-access-key
+export AWS_SESSION_TOKEN=your-temporary-session-token
+```
+
+===> Then we can use the Assumed role session
+
+
 ## AWS S3
 (+) To list all buckets :`aws s3 ls -a`
 

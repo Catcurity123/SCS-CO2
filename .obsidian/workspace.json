@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3d75d06c773ea340",
+        "id": "04d5a15cdc65c1bc",
         "type": "tabs",
         "children": [
           {
-            "id": "df01e0919f944edd",
+            "id": "75e0435c9990e171",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. IAM/1.6 Labs.md",
+                "file": "5. Elastic Block Storage (EBS)/EBS Lab.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. IAM/1.6 Labs.md",
+                "file": "5. Elastic Block Storage (EBS)/EBS Lab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. IAM/1.6 Labs.md",
+                "file": "5. Elastic Block Storage (EBS)/EBS Lab.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. IAM/1.6 Labs.md"
+                "file": "5. Elastic Block Storage (EBS)/EBS Lab.md"
               }
             }
           }
@@ -146,53 +146,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "df01e0919f944edd",
+  "active": "c67d8621f3b34e3e",
   "lastOpenFiles": [
-    "Lab_Dir/User_Group_Policy_Using_Terraform_Lab/terraform.tfstate.backup",
-    "Lab_Dir/User_Group_Policy_Using_Terraform_Lab/terraform.tfstate",
+    "5. Elastic Block Storage (EBS)/Appendix A Storage Refresh.md",
+    "5. Elastic Block Storage (EBS)/5.2 AWS Instance Store.md",
+    "5. Elastic Block Storage (EBS)/5.1 Elastic Block Store (EBS).md",
+    "4. Elastic Compute Cloud (EC2)/4.1 Elastic Compute Cloud (EC2).md",
+    "5. Elastic Block Storage (EBS)/EBS Lab.md",
+    "Picture/Pasted image 20240909161336.png",
+    "Picture/Pasted image 20240909161309.png",
+    "Picture/Pasted image 20240909160808.png",
+    "4. Elastic Compute Cloud (EC2)/4.2 EC2 Advanced.md",
+    "4. Elastic Compute Cloud (EC2)/Appendix A. Virtualization.md",
+    "3. VPC/3.2 Virtual Private Cloud Deep Dive.md",
+    "3. VPC/3.1 Virtual Private Cloud.md",
+    "Picture/Pasted image 20240909152806.png",
+    "Picture/Pasted image 20240909152004.png",
+    "Picture/Pasted image 20240906143501.png",
+    "Picture/Pasted image 20240906142544.png",
+    "Picture/Pasted image 20240906131621.png",
+    "5. Elastic Block Storage (EBS)",
+    "1. IAM/1.4 AWS Policies Advanced.md",
+    "1. IAM/1.3 Policy Evaluation Logic.md",
+    "1. IAM/1.5 Appendix.md",
+    "1. IAM/1.1 Identity and Access Management.md",
+    "1. IAM/1.2 Security Token Service (STS).md",
+    "1. IAM/1.6 Labs.md",
+    "Lab_Dir/PermissionBoundary/PermissionBoundary.json",
+    "Lab_Dir/PermissionBoundary/main.tf",
+    "Lab_Dir/PermissionBoundary",
+    "2. S3/2.4 Labs.md",
+    "CloudFront/1.1 CloudFront Architecture.md",
+    "4. Elastic Compute Cloud (EC2)",
+    "AWS Policy Library/4. E",
+    "Appendix 1. Internet Encryption/2. Cryptography.md",
+    "Picture/Pasted image 20240826171807.png",
+    "Appendix 1. Internet Encryption/1. SSL and TLS.md",
+    "Appendix 1. Internet Encryption/A. TLS and SSL.md",
+    "Picture/Pasted image 20240826170526.png",
+    "Additional Knowledge/Untitled",
+    "Appendix 1. Internet Encryption",
+    "2. S3/2.3 Other S3's options.md",
+    "CloudFront",
+    "3. VPC/3.3 Virtual Private Cloud Additional Knowledge.md",
+    "Lab_Dir/createS3ForTesting/terraform.tfstate.backup",
     "Lab_Dir/User_Group_Policy_Using_Terraform_Lab/README.md",
-    "Lab_Dir/User_Group_Policy_Using_Terraform_Lab/main.tf",
-    "Lab_Dir/User_Group_Policy_Using_Terraform_Lab/ec2-admin.json",
-    "Lab_Dir/User_Group_Policy_Using_Terraform_Lab/delete_all_profile.sh",
-    "Lab_Dir/User_Group_Policy_Using_Terraform_Lab/create_login_password.sh",
-    "Lab_Dir/User_Group_Policy_Using_Terraform_Lab/AmazonS3ReadOnlyAccess.json",
-    "Lab_Dir/User_Group_Policy_Using_Terraform_Lab/AmazonEC2ReadOnlyAccess.json",
-    "Lab_Dir/User_Group_Policy_Using_Terraform_Lab",
-    "Lab_Dir/Test_TF/terraform.tfstate.backup",
-    "Lab_Dir/Test_TF/terraform.tfstate",
     "Lab_Dir/Resource_Policy_Restrict_S3/README.md",
     "1. IAM/Lab_Dir/Resource_Policy_Restrict_S3/README.md",
-    "1. IAM/Lab_Dir/Resource_Policy_Restrict_S3/Signature.png",
-    "1. IAM/Lab_Dir/User_Group_Policy_Using_Terraform_Lab/README.md",
-    "1. IAM/Lab_Dir/Resource_Policy_Lab/README.md",
-    "1. IAM/Lab_Dir/User/Group/Policy Lab using Terraform/README.md",
-    "AWS_CLI_CheatSheet.md",
-    "3. VPC/3.2 Virtual Private Cloud Deep Dive.md",
-    "Picture/Pasted image 20240821160151.png",
-    "Picture/Pasted image 20240821160137.png",
-    "Picture/Pasted image 20240821155744.png",
-    "3. VPC/3.1 Virtual Private Cloud.md",
-    "Picture/Pasted image 20240821153516.png",
-    "Pasted image 20240821153411.png",
-    "Picture/Pasted image 20240821142037.png",
-    "Picture/Pasted image 20240821152540.png",
-    "Picture/Pasted image 20240821152026.png",
-    "Picture/Pasted image 20240821142255.png",
-    "3. VPC/3.3 Virtual Private Cloud Additional Knowledge.md",
-    "1. IAM/1.1 Identity and Access Management.md",
-    "2. S3/2.4 Labs.md",
-    "2. S3/2.1 Simple Storage Service (S3).md",
-    "2. S3/2.2 S3 Advance.md",
-    "2. S3/2.3 Other S3's options.md",
-    "1. IAM/1.4 AWS Policies Advanced.md",
-    "1. IAM/1.5 Appendix.md",
-    "1. IAM/1.2 Security Token Service (STS).md",
-    "1. Governance, Risk, and Compliance/1.2 Application Regulation or Framework that impact a Security Organization.md",
-    "1. Governance, Risk, and Compliance/1.3 Implementing Policies with organizational security.md",
-    "1. Governance, Risk, and Compliance/1.1 Comparing and contrasting various types of controls.md",
-    "Kubernetes/Kubernetes_Vault/4. Managing Resources.md",
-    "Kubernetes/Kubernetes_Vault/K8S Cheat Sheet.md",
-    "Kubernetes/Kubernetes_Vault/3. Helm package manager.md",
-    "Kubernetes/Kubernetes_Vault/2. Kubernetes Objects.md"
+    "1. IAM/Lab_Dir/User_Group_Policy_Using_Terraform_Lab/README.md"
   ]
 }
