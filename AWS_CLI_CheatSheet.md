@@ -22,6 +22,8 @@
 
 (+) To list all policies attached to an user: `aws iam list-attached-user-policies --user-name <username>`
 
+(+) To get what the policy is about: `aws iam get-policy-version --policy-arn arn:aws:iam::891376942137:policy/S3BucketLevelOnlyPolicy --version-id v1`
+
 (+) To get the ARN of a policy: `aws iam list-policies --query "Policies[?PolicyName=='<policy_name>'].Arn"`
 
 (+) To create access key for a user: `aws iam create-access-key --user-name <username>`
