@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. IAM/1.6_Lab_Dir/Lab 01 - Granting policies for different access.md",
+                "file": "Appendix 1. Internet Encryption/1. SSL and TLS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lab 01 - Granting policies for different access"
+              "title": "1. SSL and TLS"
             }
           },
           {
@@ -176,10 +176,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "75e0435c9990e171",
+  "active": "c67d8621f3b34e3e",
   "lastOpenFiles": [
-    "1. IAM/1.6_Lab_Dir/case_1/S3ObjectLevelPolicy.json",
+    "5. Elastic Block Storage (EBS)/Appendix A Storage Refresh.md",
+    "5. Elastic Block Storage (EBS)/EBS Lab.md",
+    "5. Elastic Block Storage (EBS)/5.1 Elastic Block Store (EBS).md",
+    "5. Elastic Block Storage (EBS)/5.2 AWS Instance Store.md",
+    "1. IAM/1.3 Policy Evaluation Logic.md",
+    "1. IAM/1.2 Security Token Service (STS).md",
     "1. IAM/1.1 Identity and Access Management.md",
+    "Appendix 1. Internet Encryption/2. Cryptography.md",
+    "Appendix 1. Internet Encryption/1. SSL and TLS.md",
+    "1. IAM/1.6_Lab_Dir/Lab 01 - Granting policies for different access.md",
+    "1. IAM/1.6_Lab_Dir/case_1/S3ObjectLevelPolicy.json",
     "1. IAM/1.4 AWS Policies Advanced.md",
     "1. IAM/1.6_Lab_Dir/case_1/output.tf",
     "1. IAM/1.6_Lab_Dir/case_1/terraform.tfstate.backup",
@@ -189,21 +198,12 @@
     "1. IAM/1.6_Lab_Dir/case_1/main.tf",
     "1. IAM/1.6_Lab_Dir/case_1",
     "1. IAM/1.6 Lab Dir/Lab 01 - Granting policies for different access.md",
-    "1. IAM/1.6_Lab_Dir/Lab 01 - Granting policies for different access.md",
     "1. IAM/1.6_Lab_Dir",
     "1. IAM/1.6 Lab Dir/main.tf",
     "1. IAM/1.5 Appendix.md",
-    "1. IAM/1.2 Security Token Service (STS).md",
     "1. IAM/1.6 Labs.md",
-    "1. IAM/1.3 Policy Evaluation Logic.md",
     "1. IAM/1.6 Lab Dir/Untitled.md",
-    "1. IAM/1.6 Lab Dir",
-    "5. Elastic Block Storage (EBS)/5.1 Elastic Block Store (EBS).md",
-    "5. Elastic Block Storage (EBS)/5.2 AWS Instance Store.md",
-    "5. Elastic Block Storage (EBS)/Appendix A Storage Refresh.md",
     "4. Elastic Compute Cloud (EC2)/4.1 Elastic Compute Cloud (EC2).md",
-    "5. Elastic Block Storage (EBS)/EBS Lab.md",
-    "Appendix 1. Internet Encryption/1. SSL and TLS.md",
     "Picture/Pasted image 20240909161336.png",
     "Picture/Pasted image 20240909161309.png",
     "Picture/Pasted image 20240909160808.png",
@@ -218,7 +218,6 @@
     "Picture/Pasted image 20240906131621.png",
     "2. S3/2.4 Labs.md",
     "CloudFront/1.1 CloudFront Architecture.md",
-    "Appendix 1. Internet Encryption/2. Cryptography.md",
     "Picture/Pasted image 20240826171807.png",
     "Appendix 1. Internet Encryption/A. TLS and SSL.md",
     "Picture/Pasted image 20240826170526.png",
