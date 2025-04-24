@@ -98,3 +98,47 @@ resource "aws_iam_user_policy_attachment" "test_userA_PolicyAttachment" {
 
 ##### Objective 2
 ###### Create a bucket, assign bucket with resource policy
+
+```
+resource "aws_s3_bucket" "s3_test_bucket" {
+  bucket        = "s3-testbucket-forscs2"
+  force_destroy = true
+  tags = {
+    Environment = "test"
+  }
+}
+```
+
+```
+data "template_file" "s3_bucket_level_policy_template" {
+  template = file("${path.module}/S3BucketLevelPolicy.json")
+  #template = file("${path.module}/S3ObjectLevelPolicy.json")
+  # Refer the variable in the policy
+  vars = {
+    aws_s3_bucket_arn = aws_s3_bucket.s3_test_bucket.arn
+  }
+}
+
+# Create aws iam policy
+resource "aws_iam_policy" "s3_bucket_level_policy" {
+  provider = aws.account_A
+  name = "S3BucketLevelPolicy"
+  #  name = "S3ObjectLevelPolicy"
+  description = "Only allow bucket level actions"
+  policy = data.template_file.s3_bucket_level_policy_template.rendered
+}
+```
+
+```
+resource "aws_iam_user_policy_attachment" "s3_bucket_level_policy_attachment" {
+    provider = aws.account_A
+    user = aws_iam_user.test_userA.name
+    policy_arn = aws_iam_policy.s3_bucket_level_policy.arn
+}
+```
+
+(+) Then attach different policeis to different users to see the different in permission.
+
+##### Objective 3 
+###### First we will allow cross-account access using Identity policy and resource policy
+(+) First we will create identity policies and resource policies that will allow a user to list bucket
