@@ -1,4 +1,4 @@
-#### Objective
+#### Objective: Demonstrate the usage of permission policy
 1. Create two Identity-based policy, attach to the same user and demonstrate its access to a resource.
 2. Create a resource policy, create another user, attach to the first user, demonstrate the access of the two users.
 3. Create a user in a different account, apply IAM policy to it, create a resource in another account. Check whether the user can access the resource. Apply a resource policy allowing the user to access and recheck if the user can now access the resource.
@@ -97,5 +97,4 @@ resource "aws_iam_user_policy_attachment" "test_userA_PolicyAttachment" {
 ==> By this way, we know how to create policies with different permissions, apply to a user and test the permissions grant to the users.
 
 ##### Objective 2
-
 ###### Create a bucket, assign bucket with resource policy
