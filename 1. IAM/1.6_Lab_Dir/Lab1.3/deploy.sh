@@ -1,5 +1,4 @@
 #!/bin/bash
-set -e
 
 echo "Applying st1_creator_init..."
 cd st1_creator_init
