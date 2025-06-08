@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. VPC/3.1 Virtual Private Cloud.md",
+                "file": "1. IAM/1.1 Identity and Access Management.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.1 Virtual Private Cloud"
+              "title": "1.1 Identity and Access Management"
             }
           }
         ]
@@ -165,18 +165,20 @@
   },
   "active": "75e0435c9990e171",
   "lastOpenFiles": [
-    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_03/vpc.tf",
-    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_03/output.tf",
-    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_03/main.tf",
-    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_03/ec2.tf",
-    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_03/ec2_prep_fold/init.sh",
-    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_03/ec2_prep_fold",
+    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_04/destroy.sh",
+    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_04/deployv2.sh",
+    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_04/deploy.sh",
+    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_04/st3/s3.tf",
+    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_04/st3/output.tf",
+    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_04/st3/main.tf",
+    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_04/st3",
+    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_04/st2/ec2_prep_fold/init.sh",
+    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_04/st2/vpc.tf",
+    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_04/st2/output.tf",
+    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_04/st2/main.tf",
+    "2. S3/2.1 Simple Storage Service (S3).md",
+    "3. VPC/3.1 Virtual Private Cloud.md",
     "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_03/networking.md",
-    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_03/vpc copy.tf",
-    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_03/output copy.tf",
-    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_03/main copy.tf",
-    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_03/ec2 copy.tf",
-    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_Buffer/web-server-key.pem",
     "PrepFold/Terraform_CheatSheet/Key.md",
     "PrepFold/Terraform_CheatSheet/networking.md",
     "PrepFold/Terraform_CheatSheet/vpc.md",
@@ -190,7 +192,6 @@
     "5. Elastic Block Storage (EBS)/5.1 Elastic Block Store (EBS).md",
     "3. VPC/3.3 Virtual Private Cloud Additional Knowledge.md",
     "3. VPC/3.2 Virtual Private Cloud Deep Dive.md",
-    "3. VPC/3.1 Virtual Private Cloud.md",
     "1. IAM/1.4 AWS Policies Advanced.md",
     "PrepFold/CheatSheet/AWS_CLI_CheatSheet.md",
     "1. IAM/1.6 Labs.md",
@@ -200,7 +201,6 @@
     "1. IAM/1.3 Policy Evaluation Logic.md",
     "1. IAM/1.2 Security Token Service (STS).md",
     "1. IAM/1.1 Identity and Access Management.md",
-    "Appendix/Appendix 2. CloudFront/1.1 CloudFront Architecture.md",
     "Picture/Pasted image 20240909161336.png",
     "Picture/Pasted image 20240909161309.png",
     "Picture/Pasted image 20240909160808.png",
