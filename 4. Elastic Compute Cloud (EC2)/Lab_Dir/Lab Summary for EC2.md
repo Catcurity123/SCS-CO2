@@ -272,3 +272,57 @@ output "ssh_command" {
 ```
 
 #### D. Create EC2 with IMDSv2 and output the metadata html file onto S3 bucket <-> S3 must be through assumerole
+(1) We will have to do this in stage terraform. First we will initiate creator's account and output the creator id 
+
+```
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 5.0"
+    }
+  }
+}
+
+provider "aws" {
+  region  = "us-east-1"
+  profile = "lab_account"
+}
+
+data "aws_caller_identity" "current" {}
+
+output "creator_account_id" {
+  value = data.aws_caller_identity.current.account_id
+}
+```
+
+(2) Then we will initiate the accessor account. 
+
+```
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 5.0"
+    }
+    tls = {
+      source  = "hashicorp/tls"
+      version = "~> 4.0"
+    }
+  }
+}
+
+
+provider "aws" {
+  region  = "us-east-1"
+  profile = "main_account"
+}
+
+data "aws_caller_identity" "current" {}
+```
+
+(3) We will use the vpc in Lab_03, and iniate the EC2 instance
+
+```
+
+```

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. IAM/1.1 Identity and Access Management.md",
+                "file": "3. VPC/3.3 Virtual Private Cloud Additional Knowledge.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.1 Identity and Access Management"
+              "title": "3.3 Virtual Private Cloud Additional Knowledge"
             }
           }
         ]
@@ -165,17 +165,23 @@
   },
   "active": "75e0435c9990e171",
   "lastOpenFiles": [
-    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_04/destroy.sh",
-    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_04/deployv2.sh",
-    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_04/deploy.sh",
-    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_04/st3/s3.tf",
-    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_04/st3/output.tf",
-    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_04/st3/main.tf",
-    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_04/st3",
-    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_04/st2/ec2_prep_fold/init.sh",
-    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_04/st2/vpc.tf",
-    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_04/st2/output.tf",
-    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_04/st2/main.tf",
+    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_05/vpc.tf",
+    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_05/output.tf",
+    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_05/main.tf",
+    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_05/ec2.tf",
+    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_05/ec2_prep_fold/init.sh",
+    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_05/ec2_prep_fold",
+    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_05",
+    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_Buffer/terraform.tfstate.backup",
+    "3. VPC/3.2 Virtual Private Cloud Deep Dive.md",
+    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_Buffer/web-server-key.pem",
+    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_Buffer/terraform.tfstate",
+    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_Buffer/output.tf",
+    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_04/Lab_04.png",
+    "4. Elastic Compute Cloud (EC2)/4.1 Elastic Compute Cloud (EC2).md",
+    "4. Elastic Compute Cloud (EC2)/4.2 EC2 Advanced.md",
+    "4. Elastic Compute Cloud (EC2)/Appendix A. Virtualization.md",
+    "1. IAM/1.1 Identity and Access Management.md",
     "2. S3/2.1 Simple Storage Service (S3).md",
     "3. VPC/3.1 Virtual Private Cloud.md",
     "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab_03/networking.md",
@@ -184,14 +190,11 @@
     "PrepFold/Terraform_CheatSheet/vpc.md",
     "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab Summary for EC2.md",
     "PrepFold/Terraform_CheatSheet/EC2.md",
-    "4. Elastic Compute Cloud (EC2)/4.2 EC2 Advanced.md",
-    "4. Elastic Compute Cloud (EC2)/4.1 Elastic Compute Cloud (EC2).md",
     "5. Elastic Block Storage (EBS)/EBS Lab.md",
     "5. Elastic Block Storage (EBS)/Appendix A Storage Refresh.md",
     "5. Elastic Block Storage (EBS)/5.2 AWS Instance Store.md",
     "5. Elastic Block Storage (EBS)/5.1 Elastic Block Store (EBS).md",
     "3. VPC/3.3 Virtual Private Cloud Additional Knowledge.md",
-    "3. VPC/3.2 Virtual Private Cloud Deep Dive.md",
     "1. IAM/1.4 AWS Policies Advanced.md",
     "PrepFold/CheatSheet/AWS_CLI_CheatSheet.md",
     "1. IAM/1.6 Labs.md",
@@ -199,8 +202,6 @@
     "1. IAM/1.6_Lab_Dir/Lab 01 - Granting policies for different access.md",
     "1. IAM/1.6_Lab_Dir/LabForIAM_1/Objective.md",
     "1. IAM/1.3 Policy Evaluation Logic.md",
-    "1. IAM/1.2 Security Token Service (STS).md",
-    "1. IAM/1.1 Identity and Access Management.md",
     "Picture/Pasted image 20240909161336.png",
     "Picture/Pasted image 20240909161309.png",
     "Picture/Pasted image 20240909160808.png",
@@ -209,7 +210,6 @@
     "Picture/Pasted image 20240906143501.png",
     "Picture/Pasted image 20240906142544.png",
     "Picture/Pasted image 20240906131621.png",
-    "Picture/Pasted image 20240826171807.png",
-    "Picture/Pasted image 20240826170526.png"
+    "Picture/Pasted image 20240826171807.png"
   ]
 }
