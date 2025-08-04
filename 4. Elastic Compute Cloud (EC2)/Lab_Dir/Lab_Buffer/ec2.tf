@@ -52,23 +52,6 @@ resource "aws_instance" "bastion_host" {
   }
 }
 
-resource "aws_instance" "test_host" {
-  ami           = data.aws_ami.amazon_linux_2.id
-  instance_type = "t2.micro"
-  # Corrected subnet reference below
-  subnet_id = aws_subnet.public1.id
-  # Corrected security group reference below
-  vpc_security_group_ids = [aws_security_group.bastion_sg.id]
-  key_name               = aws_key_pair.generated_key.key_name
-  metadata_options {
-    http_endpoint = "enabled"
-    http_tokens   = "required"
-  }
-  user_data = file("${path.module}/ec2_prep_fold/init.sh")
-  tags = {
-    Name = "latest-amazon-linux-2-public"
-  }
-}
 
 
 ## Resource to launch the EC2 instance in the public subnet ##
@@ -77,7 +60,7 @@ resource "aws_instance" "private_web_server" {
   ami           = data.aws_ami.amazon_linux_2.id
   instance_type = "t2.micro"
   # Corrected subnet reference below
-  subnet_id = aws_subnet.private.id
+  subnet_id = aws_subnet.private1.id
   # Corrected security group reference below
   vpc_security_group_ids = [aws_security_group.private_sg.id]
   key_name               = aws_key_pair.generated_key.key_name
