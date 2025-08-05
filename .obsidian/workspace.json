@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b5a7eb89e70c02ab",
+        "id": "727774751950cae8",
         "type": "tabs",
         "children": [
           {
-            "id": "a2b7c5d7db079601",
+            "id": "50018f982c73a5a5",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "Picture/Pasted image 20250805005502.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250805005502"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -161,25 +159,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c67d8621f3b34e3e",
+  "active": "50018f982c73a5a5",
   "lastOpenFiles": [
-    "4. Elastic Compute Cloud (EC2)/4.2 EC2 Advanced.md",
-    "Picture/Pasted image 20250805005502.png",
-    "Picture/Pasted image 20250805004619.png",
-    "Picture/Pasted image 20250805004444.png",
-    "Picture/Pasted image 20250805003810.png",
-    "Picture/Pasted image 20250805003044.png",
-    "Picture/Pasted image 20250805002641.png",
-    "4. Elastic Compute Cloud (EC2)/4.1 Elastic Compute Cloud (EC2).md",
-    "Picture/Pasted image 20250804213553.png",
-    "Picture/Pasted image 20250804220905.png",
-    "Picture/Pasted image 20250804220104.png",
-    "Picture/Pasted image 20250804215720.png",
-    "4. Elastic Compute Cloud (EC2)/Appendix A. Virtualization.md",
-    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab Summary for EC2.md",
+    "Picture/Pasted image 20250805223451.png",
     "3. VPC/3.3 Virtual Private Cloud Additional Knowledge.md",
-    "3. VPC/3.2 Virtual Private Cloud Deep Dive.md",
+    "3. VPC/3.4 VPC's Architectural Points.md",
     "3. VPC/3.5 VPC's Security Controls.md",
+    "4. Elastic Compute Cloud (EC2)/4.1 Elastic Compute Cloud (EC2).md",
+    "Picture/Pasted image 20250805232059.png",
+    "Picture/Pasted image 20250805230355.png",
+    "Picture/Pasted image 20250805230226.png",
+    "Picture/Pasted image 20250805230113.png",
+    "Picture/Pasted image 20250805225316.png",
+    "4. Elastic Compute Cloud (EC2)/4.2 EC2 Advanced.md",
+    "6. Key Management System (KMS)/AWS Systems Management Parameter Store (SSM).md",
+    "Picture/Pasted image 20250805224116.png",
+    "6. Key Management System (KMS)",
+    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab Summary for EC2.md",
+    "Picture/Pasted image 20250805205951.png",
+    "Picture/Pasted image 20250805221055.png",
+    "Picture/Pasted image 20250805220905.png",
+    "4. Elastic Compute Cloud (EC2)/Appendix A. Virtualization.md",
+    "3. VPC/3.2 Virtual Private Cloud Deep Dive.md",
     "3. VPC/Lab_Dir/Lab_01/web-server-key.pem",
     "3. VPC/Lab_Dir/Lab_01/terraform.tfstate.backup",
     "3. VPC/Lab_Dir/Lab_01/terraform.tfstate",
@@ -191,13 +192,11 @@
     "3. VPC/Lab_Dir/Lab_01/main.tf",
     "3. VPC/Lab_Dir/Lab_01/ec2.tf",
     "3. VPC/Lab_Dir/Lab_01/ec2_prep_folder/init.sh",
-    "3. VPC/Lab_Dir/Lab_01/ec2_prep_folder",
     "1. IAM/1.1 Identity and Access Management.md",
     "1. IAM/1.3 Policy Evaluation Logic.md",
     "1. IAM/1.5 Appendix.md",
     "1. IAM/1.2 Security Token Service (STS).md",
     "1. IAM/1.4 AWS Policies Advanced.md",
-    "3. VPC/3.4 VPC's Architectural Points.md",
     "3. VPC/Route 53/R53 Deep Dive.md",
     "1. IAM/AWS Organization/AWS Control Tower 101.md",
     "1. IAM/Untitled.md",
@@ -206,7 +205,6 @@
     "1. AWS Fundamentals/1.1 AWS Global Infrastructure.md",
     "1. AWS Fundamentals/1.0 Cloud Computing Overview.md",
     "Route 53/8.2 R53 Deep Dive.md",
-    "Route 53/8.1 What is DNS.md",
-    "8. Route 53/8.2 R53 Deep Dive.md"
+    "Route 53/8.1 What is DNS.md"
   ]
 }
