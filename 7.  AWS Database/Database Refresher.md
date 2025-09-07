@@ -1,0 +1,40 @@
+#### A. Relational (SQL)  and Non-Relational (NoSQL)
+(+) Structured Query Language (SQL)
+(+) Structure in & between tables of data - Rigid `Schema`
+(+) Not one single thing with different model (NoSQL)
+(+) Generally a much more relaxed Schema where relationships are handled differently
+
+###### Relational Database Example
+(+) Define relationship between tables, each table has a `primary key`.
+(+) The `join table` that defines relationship between other table has a `composite key` which is comprise of two `primary key`.
+==> Difficult to store data that has relationship changes over time.
+![[Pasted image 20250807192748.png]]
+
+###### NoSQL Database example
+###### Key-Value database
+(+) List of key-value pair, no schema or structure, just that the key is unique which makes it scalable and is really fast.
+![[Pasted image 20250807192934.png]]
+
+###### Wide Column Store
+(+) No fix schema or structure for attribute parts. But that every item must have the same key structure and keys have to be unique
+==> DynamoDB is a wide column store.
+![[Pasted image 20250807193201.png]]
+
+###### Document Store
+(+) Typically JSON or XML, can be viewed as an extension as `key-value` database where each document is access via the unique id. But the content of the value can be used to interact with. (orderitems contain itemid and pric within order table we can interact with item within item)
+==> Work best when we need to interact with the data as an document like catalog, user profile, order
+![[Pasted image 20250807193642.png]]
+
+###### Row Store and Column Store
+(+) For `row database`: every data point is store in row and those row are store on disk together. If we need to read the price of one order from the database, we need to read the whole row in database, and if we dont have index, we will need to find the row (meaning scanning through row and row of data) to get the data.
+==> Ideal for operating with rows, adding, updating, deleting or in fact `Online Transaction Procesisng (OLTP)` like order database, stock database, where row are constantly access and modify.
+
+
+(+) For `column database`: every column data is stored together, ideal for reporting or when all values for a specific attribute (size) are required.
+==> Take data from OLTP database (row) and shift that to column database when we want to perform reporting or analytic.
+![[Pasted image 20250807194432.png]]
+
+###### Graph Store
+(+) Nodes storing data and relationship showing how nodes interacting with others.
+![[Pasted image 20250807194638.png]]
+

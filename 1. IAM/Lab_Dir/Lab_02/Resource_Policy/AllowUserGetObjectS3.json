@@ -1,0 +1,20 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "AllowCrossAccountGetObject",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "${aws_user_arn}"
+            },
+            "Action": [
+                "s3:ListBucket",
+                "s3:GetObject"
+            ],
+            "Resource": [
+                "${aws_s3_bucket_arn}",
+                "${aws_s3_bucket_arn}/*"
+            ]
+        }
+    ]
+}

@@ -36,4 +36,6 @@ aws iam add-user-to-group --group-name EC2 --user-name user3
 aws iam create-login-profile --user-name user1 --password "YourCommonPassword123" --password-reset-required
 aws iam create-login-profile --user-name user2 --password "YourCommonPassword123" --password-reset-required
 aws iam create-login-profile --user-name user3 --password "YourCommonPassword123" --password-reset-required
+
+aws sts get-session-token
 ```

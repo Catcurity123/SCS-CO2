@@ -11,10 +11,14 @@
             "id": "50018f982c73a5a5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Lab_Dir/User_Group_Policy_Using_Terraform_Lab/README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "README"
             }
           }
         ]
@@ -90,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. IAM/1.1 Identity and Access Management.md",
+                "file": "5. Elastic Block Storage (EBS)/5.1 Elastic Block Store (EBS).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 1.1 Identity and Access Management"
+              "title": "Backlinks for 5.1 Elastic Block Store (EBS)"
             }
           },
           {
@@ -146,11 +150,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 303.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -161,50 +166,51 @@
   },
   "active": "50018f982c73a5a5",
   "lastOpenFiles": [
-    "Picture/Pasted image 20250805223451.png",
-    "3. VPC/3.3 Virtual Private Cloud Additional Knowledge.md",
-    "3. VPC/3.4 VPC's Architectural Points.md",
-    "3. VPC/3.5 VPC's Security Controls.md",
-    "4. Elastic Compute Cloud (EC2)/4.1 Elastic Compute Cloud (EC2).md",
-    "Picture/Pasted image 20250805232059.png",
-    "Picture/Pasted image 20250805230355.png",
-    "Picture/Pasted image 20250805230226.png",
-    "Picture/Pasted image 20250805230113.png",
-    "Picture/Pasted image 20250805225316.png",
-    "4. Elastic Compute Cloud (EC2)/4.2 EC2 Advanced.md",
-    "6. Key Management System (KMS)/AWS Systems Management Parameter Store (SSM).md",
-    "Picture/Pasted image 20250805224116.png",
-    "6. Key Management System (KMS)",
-    "4. Elastic Compute Cloud (EC2)/Lab_Dir/Lab Summary for EC2.md",
-    "Picture/Pasted image 20250805205951.png",
-    "Picture/Pasted image 20250805221055.png",
-    "Picture/Pasted image 20250805220905.png",
-    "4. Elastic Compute Cloud (EC2)/Appendix A. Virtualization.md",
-    "3. VPC/3.2 Virtual Private Cloud Deep Dive.md",
-    "3. VPC/Lab_Dir/Lab_01/web-server-key.pem",
-    "3. VPC/Lab_Dir/Lab_01/terraform.tfstate.backup",
-    "3. VPC/Lab_Dir/Lab_01/terraform.tfstate",
-    "3. VPC/3.1 Virtual Private Cloud.md",
-    "3. VPC/Route 53/What is DNS.md",
-    "3. VPC/Lab_Dir/Test_Fold/ec2_prep_folder/init1.sh",
-    "3. VPC/Lab_02",
-    "3. VPC/Lab_Dir/Lab_01/vpc.tf",
-    "3. VPC/Lab_Dir/Lab_01/main.tf",
-    "3. VPC/Lab_Dir/Lab_01/ec2.tf",
-    "3. VPC/Lab_Dir/Lab_01/ec2_prep_folder/init.sh",
-    "1. IAM/1.1 Identity and Access Management.md",
-    "1. IAM/1.3 Policy Evaluation Logic.md",
-    "1. IAM/1.5 Appendix.md",
-    "1. IAM/1.2 Security Token Service (STS).md",
+    "1. IAM/Lab_Dir/Lab_04/Policies/AssumeRole.json",
+    "1. IAM/Lab_Dir/Lab_04/Policies",
+    "1. IAM/Lab_Dir/Lab_Buffer/terraform.tfstate.backup",
+    "1. IAM/Lab_Dir/Lab_03/IAM_Policy/s3Admin.json",
+    "1. IAM/Lab_Dir/Lab_03/IAM_Policy/AssumeRole.json",
+    "1. IAM/Lab_Dir/Lab_Buffer/terraform.tfstate",
+    "1. IAM/Lab_Dir/Lab_Buffer/main.tf",
+    "1. IAM/Lab_Dir/Lab_Buffer/change_local_aws_account.sh",
+    "1. IAM/Lab_Dir/Lab_Buffer/assume.sh",
+    "1. IAM/Lab_Dir/Lab_Buffer/IAM_Policy/s3ListPolicy.json",
+    "1. IAM/Lab_Dir/Lab_Buffer/IAM_Policy/s3AccessUserAssumeRole.json",
     "1. IAM/1.4 AWS Policies Advanced.md",
-    "3. VPC/Route 53/R53 Deep Dive.md",
+    "1. IAM/1.6_Lab_Dir/LabForIAM_1/Objective.md",
+    "1. IAM/1.6_Lab_Dir/Lab 01 - Granting policies for different access.md",
+    "1. IAM/1.5 Appendix.md",
+    "1. IAM/1.6 Labs.md",
+    "Lab_Dir/User_Group_Policy_Using_Terraform_Lab/README.md",
+    "1. IAM/1.1 Identity and Access Management.md",
+    "1. IAM/1.2 Security Token Service (STS).md",
+    "1. IAM/1.3 Policy Evaluation Logic.md",
     "1. IAM/AWS Organization/AWS Control Tower 101.md",
-    "1. IAM/Untitled.md",
-    "0. AWS Fundamentals/1.1 AWS Global Infrastructure.md",
-    "0. AWS Fundamentals/1.0 Cloud Computing Overview.md",
-    "1. AWS Fundamentals/1.1 AWS Global Infrastructure.md",
-    "1. AWS Fundamentals/1.0 Cloud Computing Overview.md",
-    "Route 53/8.2 R53 Deep Dive.md",
-    "Route 53/8.1 What is DNS.md"
+    "7.  AWS Database/Database Refresher.md",
+    "1. IAM/1.6_Lab_Dir/Lab_test/assume.md",
+    "7.  AWS Database/7.1 Databases in AWS.md",
+    "6. Key Management System (KMS)/AWS Systems Management Parameter Store (SSM).md",
+    "5. Elastic Block Storage (EBS)/5.2 AWS Instance Store.md",
+    "5. Elastic Block Storage (EBS)/5.1 Elastic Block Store (EBS).md",
+    "4. Elastic Compute Cloud (EC2)/4.1 Elastic Compute Cloud (EC2).md",
+    "4. Elastic Compute Cloud (EC2)/Virtualization Refresher.md",
+    "4. Elastic Compute Cloud (EC2)/4.2 EC2 Advanced.md",
+    "3. VPC/3.3 Virtual Private Cloud Additional Knowledge.md",
+    "3. VPC/Route 53/R53 Deep Dive.md",
+    "3. VPC/Route 53/What is DNS.md",
+    "Picture/Pasted image 20250808142619.png",
+    "5. Elastic Block Storage (EBS)/Storage Refresher.md",
+    "5. Elastic Block Storage (EBS)/EBS Lab.md",
+    "3. VPC/3.5 VPC's Security Controls.md",
+    "Picture/Pasted image 20250807201518.png",
+    "Picture/Pasted image 20250807194909.png",
+    "Picture/Pasted image 20250807194638.png",
+    "Picture/Pasted image 20250807194432.png",
+    "Picture/Pasted image 20250807193642.png",
+    "Picture/Pasted image 20250807193201.png",
+    "Picture/Pasted image 20250807192934.png",
+    "Picture/Pasted image 20250807192748.png",
+    "Picture/Pasted image 20250807010941.png"
   ]
 }
