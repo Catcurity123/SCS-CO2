@@ -4,10 +4,17 @@ terraform {
       source  = "hashicorp/aws"
       version = "~> 5.0"
     }
+    tls = {
+      source  = "hashicorp/tls"
+      version = "~> 4.0"
+    }
   }
 }
 
+
 provider "aws" {
-  profile = "lab_account"
   region  = "us-east-1"
+  profile = "main_account"
 }
+
+data "aws_caller_identity" "current" {}
