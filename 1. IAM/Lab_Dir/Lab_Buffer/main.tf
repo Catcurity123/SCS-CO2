@@ -125,8 +125,3 @@ aws sts assume-role --role-arn arn:aws:iam::637423222455:role/s3-list-role \
 > --profile s3-access-user
 */
 
-//current_account = "471112659821"
-//s3_access_user_Key_Credentials = <sensitive>
-//s3_admin_role_arn = "arn:aws:iam::471112659821:role/s3-admin-role"
-//s3_admin_user_Key_Credentials = <sensitive>
-//s3_list_role_arn = "arn:aws:iam::471112659821:role/s3-list-role"
