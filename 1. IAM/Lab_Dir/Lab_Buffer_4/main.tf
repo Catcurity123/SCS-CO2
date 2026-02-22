@@ -1,109 +1,77 @@
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 5.0"
+    }
+  }
+}
+
+# Provider for Account A
 provider "aws" {
-  region  = "us-east-1"
+  alias   = "account_A"
   profile = "lab_account"
+  region  = "us-east-1"
 }
 
-//https://awspolicygen.s3.amazonaws.com/policygen.html
-
-data "aws_caller_identity" "current" {}
-
-output "current_account" {
-  value = data.aws_caller_identity.current.account_id
+# Provider for Account B
+provider "aws" {
+  alias   = "account_B"
+  profile = "main_account"
+  region  = "us-east-1"
 }
 
-//S3 access user
-resource "aws_iam_user" "s3_access_user" {
-  name = "s3-access-user"
-}
-
-resource "aws_iam_access_key" "s3_access_user_key" {
-  user = aws_iam_user.s3_access_user.name
-}
-
-//S3 admin user
-resource "aws_iam_user" "s3_admin_user" {
-  name = "s3-admin-user"
-}
-
-resource "aws_iam_access_key" "s3_admin_user_key" {
-  user = aws_iam_user.s3_admin_user.name
-}
-
-
-//S3 Bucket
-resource "aws_s3_bucket" "s3_test_bucket" {
-  bucket = "s3-test-bucket-123453424443"
-}
-
-//List role for access user
-resource "aws_iam_role" "s3_list_role" {
-  name               = "s3-list-role"
-  assume_role_policy = templatefile("${path.module}/IAM_Policy/AssumeRole.json", {
-    aws_user = aws_iam_user.s3_access_user.arn
+# Policy for Account A (Listing all S3 Buckets)
+resource "aws_iam_policy" "example_policy" {
+  provider = aws.account_A
+  name        = "ExampleS3ListPolicy"
+  description = "A policy that allows listing all S3 buckets"
+  policy      = jsonencode({
+    Version   = "2012-10-17"
+    Statement = [
+      {
+        Action   = "s3:ListAllMyBuckets"
+        Effect   = "Allow"
+        Resource = "arn:aws:s3:::*"
+      }
+    ]
   })
 }
 
-resource "aws_iam_role_policy" "s3_list_role_policy" {
-  name = "s3-list-policy"
-  role = aws_iam_role.s3_list_role.id
-  policy = templatefile("${path.module}/IAM_Policy/s3ListPolicy.json", {
-    aws_s3_bucket_arn = aws_s3_bucket.s3_test_bucket.arn
+# User in Account A
+resource "aws_iam_user" "test_userA" {
+  provider = aws.account_A
+  name     = "test-user-A"
+}
+
+# Attach the policy to the user in Account A
+resource "aws_iam_user_policy_attachment" "test_userA_policy" {
+  provider = aws.account_A
+  user     = aws_iam_user.test_userA.name
+  policy_arn = aws_iam_policy.example_policy.arn
+}
+
+# Cross-Account Role in Account A
+resource "aws_iam_role" "cross_account_role" {
+  provider = aws.account_A
+  name     = "CrossAccountRole"
+  assume_role_policy = jsonencode({
+    Version   = "2012-10-17"
+    Statement = [
+      {
+        Effect   = "Allow"
+        Principal = {
+          AWS = aws_iam_user.test_userB.arn
+        }
+        Action   = "sts:AssumeRole"
+      }
+    ]
   })
 }
 
-//Admin role for admin user
-resource "aws_iam_role" "s3_admin_role" {
-  name               = "s3-admin-role"
-  assume_role_policy = templatefile("${path.module}/IAM_Policy/AssumeRole.json", {
-    aws_user = aws_iam_user.s3_admin_user.arn
-  })
+# User in Account B
+resource "aws_iam_user" "test_userB" {
+  provider = aws.account_B
+  name     = "test-user-B"
 }
 
-resource "aws_iam_role_policy" "s3_admin_role_policy" {
-  name = "s3-admin-policy"
-  role = aws_iam_role.s3_admin_role.id
-  policy = file("${path.module}/IAM_Policy/s3Admin.json")
-}
-
-output "s3_list_role_arn" {
-  value = aws_iam_role.s3_list_role.arn
-}
-
-output "s3_admin_role_arn" {
-  value = aws_iam_role.s3_admin_role.arn
-}
-
-output "s3_access_user_Key_Credentials" {
-  value = {
-    access_key         = aws_iam_access_key.s3_access_user_key.id
-    secret_key         = aws_iam_access_key.s3_access_user_key.secret
-    s3_access_user_ARN = aws_iam_user.s3_access_user.arn
-    s3_access_user_Id  = aws_iam_user.s3_access_user.id
-  }
-  sensitive = true
-}
-
-output "s3_admin_user_Key_Credentials" {
-  value = {
-    access_key         = aws_iam_access_key.s3_admin_user_key.id
-    secret_key         = aws_iam_access_key.s3_admin_user_key.secret
-    s3_access_user_ARN = aws_iam_user.s3_admin_user.arn
-    s3_access_user_Id  = aws_iam_user.s3_admin_user.id
-  }
-  sensitive = true
-}
-
-#terraform output -json s3_access_user_Key_Credentials to show the credentials
-
-/*
-aws sts assume-role --role-arn arn:aws:iam::637423222455:role/s3-list-role \
-> --role-session-name test-s3-session \
-> --profile s3-access-user
-*/
-
-
-//current_account = "471112659821"
-//s3_access_user_Key_Credentials = <sensitive>
-//s3_admin_role_arn = "arn:aws:iam::471112659821:role/s3-admin-role"
-//s3_admin_user_Key_Credentials = <sensitive>
-//s3_list_role_arn = "arn:aws:iam::471112659821:role/s3-list-role"
