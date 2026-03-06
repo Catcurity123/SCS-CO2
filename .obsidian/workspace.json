@@ -25,16 +25,32 @@
             "id": "a6fb708d193c4d9e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Picture/Pasted image 20260227045409.png"
+                "file": "7.  AWS Database/7.2 AWS Aurora.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260227045409"
+              "icon": "lucide-file",
+              "title": "7.2 AWS Aurora"
+            }
+          },
+          {
+            "id": "b537ad7abd61a26b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7.  AWS Database/7.1 Databases in AWS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "7.1 Databases in AWS"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -177,14 +193,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a6fb708d193c4d9e",
+  "active": "b537ad7abd61a26b",
   "lastOpenFiles": [
-    "7.  AWS Database/Labs for AWS DB.md",
-    "Picture/Pasted image 20260227045532.png",
-    "Picture/Pasted image 20260227045434.png",
-    "Picture/Pasted image 20260227045409.png",
+    "7.  AWS Database/Lab_dir/Lab02_lambdaToRdsUsingSecret/bastion-key_lab02.pem",
+    "7.  AWS Database/Lab_dir/Lab02_lambdaToRdsUsingSecret/terraform.tfstate.backup",
+    "7.  AWS Database/Lab_dir/Lab02_lambdaToRdsUsingSecret/terraform.tfstate",
+    "7.  AWS Database/Lab_dir/Lab02_lambdaToRdsUsingSecret/Go_Dir/bootstrap",
+    "7.  AWS Database/Lab_dir/Lab02_lambdaToRdsUsingSecret/Go_Dir/go.sum",
+    "7.  AWS Database/Lab_dir/Lab02_lambdaToRdsUsingSecret/Go_Dir/go.mod",
+    "7.  AWS Database/Lab_dir/Lab02_lambdaToRdsUsingSecret/secret.tf",
+    "7.  AWS Database/Lab_dir/Lab02_lambdaToRdsUsingSecret/go_lambda_src.zip",
+    "7.  AWS Database/Lab_dir/Lab02_lambdaToRdsUsingSecret/bastion-key",
+    "7.  AWS Database/Lab_dir/Lab02_lambdaToRdsUsingSecret/bastion-key.pub",
+    "7.  AWS Database/Lab_dir/Lab02_lambdaToRdsUsingSecret/bastion-key.pem",
     "7.  AWS Database/7.0 Database Refresher.md",
+    "PrepFold/Terraform_CheatSheet/RDS.md",
+    "Picture/Pasted image 20260303190622.png",
+    "7.  AWS Database/7.3 RDS Security.md",
+    "7.  AWS Database/7.2 AWS Aurora.md",
     "7.  AWS Database/7.1 Databases in AWS.md",
+    "7.  AWS Database/Labs for AWS DB.md",
+    "Picture/Pasted image 20260303185429.png",
+    "Picture/Pasted image 20260303190011.png",
+    "Picture/Pasted image 20260303185443.png",
+    "Picture/Pasted image 20260227174222.png",
+    "Picture/Pasted image 20260227154535.png",
+    "Picture/Pasted image 20260227153829.png",
+    "Picture/Pasted image 20260227151944.png",
+    "Pasted image 20260227174222.png",
+    "Pasted image 20260227154535.png",
     "1. IAM/1.5 Appendix.md",
     "1. IAM/1.4 AWS Policies Advanced.md",
     "1. IAM/1.3 Policy Evaluation Logic.md",
@@ -197,32 +234,12 @@
     "1. IAM/AWS Organization/AWS Control Tower 101.md",
     "1. IAM/AWS Organization/AWS Organization 101.md",
     "1. IAM/1.6 Labs.md",
-    "Picture/Pasted image 20250926135848.png",
-    "1. IAM/AWS Organization/Lab_Dir/terraform.tfstate.backup",
-    "1. IAM/AWS Organization/Lab_Dir/terraform.tfstate",
-    "1. IAM/AWS Organization/Lab_Dir/main.tf",
-    "1. IAM/AWS Organization/Lab_Dir",
-    "Picture/Pasted image 20250926132954.png",
-    "Picture/Pasted image 20250926133751.png",
-    "Picture/Pasted image 20250926133623.png",
-    "Picture/Pasted image 20250926133222.png",
     "Lab_Dir/User_Group_Policy_Using_Terraform_Lab/README.md",
-    "1. IAM/Lab_Dir/Lab_Buffer_4/main.tf",
-    "1. IAM/Lab_Dir/Lab_Buffer_4/Resource_Policy/AllowUserGetObjectS3.json",
-    "1. IAM/Lab_Dir/Lab_Buffer_4/Resource_Policy",
-    "1. IAM/Lab_Dir/Lab_Buffer_4",
-    "1. IAM/Lab_Dir/Lab_Buffer_3/IAM_Policy/EC2DescribeOnly.json",
-    "1. IAM/Lab_Dir/Lab_Buffer_3/IAM_Policy/S3ListOnly.json",
     "1. IAM/1.6_Lab_Dir/LabForIAM_1/Objective.md",
     "1. IAM/1.6_Lab_Dir/Lab 01 - Granting policies for different access.md",
     "1. IAM/1.6_Lab_Dir/Lab_test/assume.md",
     "4. Elastic Compute Cloud (EC2)/4.1 Elastic Compute Cloud (EC2).md",
     "4. Elastic Compute Cloud (EC2)/Virtualization Refresher.md",
-    "4. Elastic Compute Cloud (EC2)/4.2 EC2 Advanced.md",
-    "3. VPC/3.3 Virtual Private Cloud Additional Knowledge.md",
-    "3. VPC/Route 53/R53 Deep Dive.md",
-    "3. VPC/Route 53/What is DNS.md",
-    "Picture/Pasted image 20250808142619.png",
-    "Picture/Pasted image 20250807201518.png"
+    "4. Elastic Compute Cloud (EC2)/4.2 EC2 Advanced.md"
   ]
 }
