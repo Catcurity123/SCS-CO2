@@ -41,16 +41,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7.  AWS Database/7.1 Databases in AWS.md",
+                "file": "8. Lambda/8.1 Lambda.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7.1 Databases in AWS"
+              "title": "8.1 Lambda"
+            }
+          },
+          {
+            "id": "537a10ff9db40d42",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.7"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -193,53 +205,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b537ad7abd61a26b",
+  "active": "537a10ff9db40d42",
   "lastOpenFiles": [
-    "7.  AWS Database/Lab_dir/Lab02_lambdaToRdsUsingSecret/bastion-key_lab02.pem",
-    "7.  AWS Database/Lab_dir/Lab02_lambdaToRdsUsingSecret/terraform.tfstate.backup",
-    "7.  AWS Database/Lab_dir/Lab02_lambdaToRdsUsingSecret/terraform.tfstate",
-    "7.  AWS Database/Lab_dir/Lab02_lambdaToRdsUsingSecret/Go_Dir/bootstrap",
-    "7.  AWS Database/Lab_dir/Lab02_lambdaToRdsUsingSecret/Go_Dir/go.sum",
-    "7.  AWS Database/Lab_dir/Lab02_lambdaToRdsUsingSecret/Go_Dir/go.mod",
-    "7.  AWS Database/Lab_dir/Lab02_lambdaToRdsUsingSecret/secret.tf",
-    "7.  AWS Database/Lab_dir/Lab02_lambdaToRdsUsingSecret/go_lambda_src.zip",
-    "7.  AWS Database/Lab_dir/Lab02_lambdaToRdsUsingSecret/bastion-key",
-    "7.  AWS Database/Lab_dir/Lab02_lambdaToRdsUsingSecret/bastion-key.pub",
-    "7.  AWS Database/Lab_dir/Lab02_lambdaToRdsUsingSecret/bastion-key.pem",
-    "7.  AWS Database/7.0 Database Refresher.md",
-    "PrepFold/Terraform_CheatSheet/RDS.md",
-    "Picture/Pasted image 20260303190622.png",
-    "7.  AWS Database/7.3 RDS Security.md",
-    "7.  AWS Database/7.2 AWS Aurora.md",
-    "7.  AWS Database/7.1 Databases in AWS.md",
-    "7.  AWS Database/Labs for AWS DB.md",
-    "Picture/Pasted image 20260303185429.png",
-    "Picture/Pasted image 20260303190011.png",
-    "Picture/Pasted image 20260303185443.png",
-    "Picture/Pasted image 20260227174222.png",
-    "Picture/Pasted image 20260227154535.png",
-    "Picture/Pasted image 20260227153829.png",
-    "Picture/Pasted image 20260227151944.png",
-    "Pasted image 20260227174222.png",
-    "Pasted image 20260227154535.png",
-    "1. IAM/1.5 Appendix.md",
-    "1. IAM/1.4 AWS Policies Advanced.md",
-    "1. IAM/1.3 Policy Evaluation Logic.md",
-    "1. IAM/1.2 Security Token Service (STS).md",
-    "1. IAM/1.1 Identity and Access Management.md",
-    "1. IAM/6. Key Management System (KMS)/AWS Systems Management Parameter Store (SSM).md",
-    "5. Elastic Block Storage (EBS)/5.1 Elastic Block Store (EBS).md",
-    "5. Elastic Block Storage (EBS)/5.2 AWS Instance Store.md",
-    "5. Elastic Block Storage (EBS)/EBS Lab.md",
-    "1. IAM/AWS Organization/AWS Control Tower 101.md",
-    "1. IAM/AWS Organization/AWS Organization 101.md",
-    "1. IAM/1.6 Labs.md",
-    "Lab_Dir/User_Group_Policy_Using_Terraform_Lab/README.md",
-    "1. IAM/1.6_Lab_Dir/LabForIAM_1/Objective.md",
-    "1. IAM/1.6_Lab_Dir/Lab 01 - Granting policies for different access.md",
-    "1. IAM/1.6_Lab_Dir/Lab_test/assume.md",
-    "4. Elastic Compute Cloud (EC2)/4.1 Elastic Compute Cloud (EC2).md",
-    "4. Elastic Compute Cloud (EC2)/Virtualization Refresher.md",
-    "4. Elastic Compute Cloud (EC2)/4.2 EC2 Advanced.md"
+    "C. AWS_Terra Pattern",
+    "8. Lambda/Lab_dir/Lab_04/vpc.tf",
+    "8. Lambda/Lab_dir/Lab_04/s3.tf",
+    "8. Lambda/Lab_dir/Lab_04/output.tf",
+    "8. Lambda/Lab_dir/Lab_04/main.tf",
+    "8. Lambda/Lab_dir/Lab_04/lambda.tf",
+    "8. Lambda/Lab_dir/Lab_04/policy_prep_fold/s3Access.json",
+    "8. Lambda/Lab_dir/Lab_04/policy_prep_fold",
+    "8. Lambda/Lab_dir/Lab_04/Go_Dir/go.sum",
+    "8. Lambda/Lab_dir/Lab_04/Go_Dir/main.go",
+    "8. Lambda/Lab_dir/Lab_04/Go_Dir/go.mod",
+    "B. Go Pattern/ContexAndConfig.md",
+    "B. Go Pattern/Compile_Cheatsheet.md",
+    "A. Appendix/Appendix 1. Internet Encryption/2. Cryptography.md",
+    "A. Appendix/Appendix 1. Internet Encryption/1. SSL and TLS.md",
+    "A. Appendix/Appendix 2. CloudFront/1.1 CloudFront Architecture.md",
+    "PrepFold/Random_CheatSheet/LinuxCheatSheet.md",
+    "PrepFold/Random_CheatSheet/AWS_CLI_CheatSheet.md",
+    "Picture/Pasted image 20260402170223.png",
+    "8. Lambda/Lab_dir/Lab_Placeholder/test13.md",
+    "8. Lambda/Lab_dir/Lab_Placeholder/test12.md",
+    "8. Lambda/Lab_dir/Lab_Placeholder/test11.md",
+    "8. Lambda/Lab_dir/Lab_Placeholder/test10.md",
+    "8. Lambda/Lab_dir/Lab_Placeholder/test9.md",
+    "8. Lambda/Lab_dir/Lab_Placeholder/test8.md",
+    "8. Lambda/Lab_dir/Lab_Placeholder/test7.md",
+    "8. Lambda/Lab_dir/Lab_Placeholder/test6.md",
+    "8. Lambda/Lab_dir/Lab_Placeholder/test5.md",
+    "8. Lambda/Lab_dir/Lab_Placeholder/test4.md",
+    "8. Lambda/Lab_dir/Lab_Placeholder/test3.md",
+    "8. Lambda/8.2 CloudWatch Events and EventBridge.md",
+    "8. Lambda/8.6 API Gateway.md",
+    "8. Lambda/8.5 AWS Step Functions.md",
+    "8. Lambda/8.4 Simple Notification Service (SNS).md",
+    "8. Lambda/8.1 Lambda.md",
+    "8. Lambda/Lab_dir/Lab_Placeholder/test2.md",
+    "8. Lambda/8.0 Event-Driven Architecture.md",
+    "Pasted image 20260402170223.png",
+    "Picture/Pasted image 20260402162505.png",
+    "Picture/Pasted image 20260402165557.png",
+    "Picture/Pasted image 20260402165221.png",
+    "Picture/Pasted image 20260402164737.png",
+    "Picture/Pasted image 20260402164227.png",
+    "Picture/Pasted image 20260317194040.png",
+    "Picture/Pasted image 20260317184658.png",
+    "Picture/Pasted image 20260317193445.png"
   ]
 }

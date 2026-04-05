@@ -92,9 +92,4 @@ func goHandler(request events.LambdaFunctionURLRequest) (events.LambdaFunctionUR
     	result += fmt.Sprintf("id=%d name=%s age=%d\n", id, name, age)
 	}
     return events.LambdaFunctionURLResponse{Body: result, StatusCode: 200}, nil
-
-
-   
-
-
 }

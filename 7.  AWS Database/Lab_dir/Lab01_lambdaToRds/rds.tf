@@ -5,7 +5,7 @@ resource "aws_db_instance" "test_rds" {
   identifier             = "test-rds-instance"
   username               = "testdbuser"
   password               = "testpassword"
-  skip_final_snapshot         = true
+  skip_final_snapshot    = true
   instance_class         = "db.t3.micro"
   allocated_storage      = 20
   db_subnet_group_name   = aws_db_subnet_group.test_db_subnet_group.name

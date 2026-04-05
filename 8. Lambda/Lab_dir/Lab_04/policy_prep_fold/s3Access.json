@@ -1,0 +1,33 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "s3ReadSource",
+            "Effect": "Allow",
+            "Action": ["s3:GetObject"],
+            "Resource": [
+                "${aws_s3_source_bucket_arn}",
+                "${aws_s3_source_bucket_arn}/*"
+            ]
+        },
+        {
+            "Sid": "s3WriteDestination",
+            "Effect": "Allow",
+            "Action": ["s3:PutObject"],
+            "Resource": [
+                "${aws_s3_dest_bucket_arn}",
+                "${aws_s3_dest_bucket_arn}/*"
+            ]
+        },
+        {
+                "Sid": "CloudWatchLogs",
+                "Effect": "Allow",
+                "Action": [
+                    "logs:CreateLogGroup",
+                    "logs:CreateLogStream",
+                    "logs:PutLogEvents"
+                 ],
+                "Resource": "arn:aws:logs:*:*:*"
+        }
+    ]
+}
